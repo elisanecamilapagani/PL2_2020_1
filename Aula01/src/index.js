@@ -13,13 +13,11 @@ let cpf= '03944398839';
  
  // criar um novo objeto de cleinte
 
- let cliente = clienteCtrl ; 
-
-   criarCliente(nome, endereco, cpf, telefone);
+ let cliente = clienteCtrl.criarCliente(nome, endereco, cpf, telefone);
 
  //exibir objeto de cliente no console
 
- Console.log(cliente);
+ console.log(cliente);
 
 
 
